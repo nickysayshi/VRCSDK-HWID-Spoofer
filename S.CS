@@ -53,7 +53,7 @@ public class S
 		string text = "";
 		for (int i = 0; i < 40; i++)
 		{
-			text += S.CH[Random.Range(0, S.CH.Length)];
+			text += S.CH[UnityEngine.Random.Range(0, S.CH.Length)];
 		}
 		File.WriteAllText(S.P, text);
 		Debug.Log("Made new HWID");
